@@ -32,6 +32,12 @@
   {% endif %}
 
   {% if site.bluesky_username %}
+  <li> 
+    {% include _icons/bluesky.svg username=site.bluesky_username %} 
+  </li> 
+  {% endif %}
+
+  {% if site.bluesky_username %}
     <a href="https://bsky.app/profile/{{ site.bluesky_username }}.bsky.social" title="Bluesky"><i class="fas fa-cloud"></i></a>
   {% endif %}
 
