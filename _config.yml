@@ -6,7 +6,7 @@ author:
 
 # Build settings
 markdown: kramdown
-theme: time-machine
+remote_theme: gaalcaras/academic
 
 # Plugins
 plugins:
