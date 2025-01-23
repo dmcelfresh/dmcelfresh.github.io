@@ -6,7 +6,7 @@ author:
 
 # Build settings
 markdown: kramdown
-remote_theme: alshedivat/al-folio
+theme: time-machine
 
 # Plugins
 plugins:
