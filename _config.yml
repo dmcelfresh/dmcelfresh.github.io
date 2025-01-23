@@ -1,8 +1,8 @@
-title: Your Site Title
-description: A brief description of your site
+title: David A. McElfresh
+description: Hi! My name is David A. McElfresh, and I am a current BS/MS researcher at Yale University majoring in Molecular Biophysics & Biochemistry. I am conducting my Master's thesis in the Farrenn Isaacs lab developing novel technologies for the diversification of nonmodel genomes.
 author:
-  name: Your Name
-  email: your-email@example.com
+  name: David A. McElfresh
+  email: david.mcelfresh@yale.edu
 
 # Build settings
 markdown: kramdown
@@ -28,8 +28,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Social media
-github_username: your-github-username
-twitter_username: your-twitter-username
+github_username: dmcelfresh
+bluesky_username: dmcelfresh
+linkedin_username: david-mcelfresh
 
 # Google Analytics
 google_analytics: UA-XXXXXXXXX-X
