@@ -22,6 +22,13 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+
+# Navigation Settings
+nav_ext_links:
+  - name: Link 1
+    url: https://isaacslab.yale.edu/
+  - name: Link 2
+    url: https://bsse.ethz.ch/platt
         
 # Site settings
 baseurl: "" # the subpath of your site, e.g. /blog
