@@ -1,0 +1,19 @@
+<header>
+  # Navigation
+  <nav>
+    {% for item in site.navigation %}
+      {% if item.sublinks %}
+        <div class="dropdown">
+          <button class="dropbtn">{{ item.title }}</button>
+          <div class="dropdown-content">
+            {% for sublink in item.sublinks %}
+              <a href="{{ sublink.url | relative_url }}">{{ sublink.title }}</a>
+            {% endfor %}
+          </div>
+        </div>
+      {% else %}
+        <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+      {% endif %}
+    {% endfor %}
+  </nav>
+</header>
