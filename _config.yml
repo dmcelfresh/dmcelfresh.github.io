@@ -23,6 +23,18 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
 
+# Navigation settings
+navigation:
+  - title: Home
+    url: /
+  - title: Dropdown
+    url: /dropdown/
+    sublinks:
+      - title: Page 1
+        url: /page1/
+      - title: Page 2
+        url: /page2/
+        
 # Site settings
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://dmcelfresh.github.io" # the base hostname & protocol for your site, e.g. http://example.com
