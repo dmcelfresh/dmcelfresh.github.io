@@ -35,9 +35,10 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://dmcelfresh.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Social media
-github_username: dmcelfresh
-bluesky_username: dmcelfresh
+email: david.mcelfresh@yale.edu
 linkedin_username: david-mcelfresh
+bluesky_username: dmcelfresh
+github_username: dmcelfresh
 orcid_id: 0009-0000-6925-4656
 
 # Google Analytics
