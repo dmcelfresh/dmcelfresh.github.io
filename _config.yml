@@ -13,6 +13,10 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
+# Inclusions
+include:
+  - _pages
+
 # Exclude from processing
 exclude:
   - Gemfile
