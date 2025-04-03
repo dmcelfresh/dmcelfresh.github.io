@@ -27,12 +27,6 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
 
-
-# Navigation Settings
-nav_ext_links:
-  - name: Test
-    url: /test/
-        
 # Site settings
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://dmcelfresh.github.io" # the base hostname & protocol for your site, e.g. http://example.com
