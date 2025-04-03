@@ -26,6 +26,12 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+
+
+# Navigation Settings
+nav_ext_links:
+  - name: Test
+    url: /test/
         
 # Site settings
 baseurl: "" # the subpath of your site, e.g. /blog
