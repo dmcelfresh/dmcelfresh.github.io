@@ -33,6 +33,24 @@ layout: default
         .social-links a:hover {
             color: #007bff;
         }
+        .home-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 32px;
+        }
+        
+        .home-text {
+            flex: 1;
+        }
+        
+        .home-photo img {
+            max-width: 180px;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
     </style>
 </head>
 <body>
@@ -42,8 +60,15 @@ layout: default
 
     <!-- CONTENT -->
     <main>
-        <h2>Welcome to My Website</h2>
-        <p>This is the main content of my homepage.</p>
+      <div class="home-container">
+        <div class="home-text">
+          <h2>Welcome to My Website</h2>
+          <p>This is the main content of my homepage.</p>
+        </div>
+        <div class="home-photo">
+          <img src="_includes/_images/McElfresh_David_Headshot.jpg" alt="A photo of myself" style="max-width:180px; border-radius: 8px;">
+        </div>
+      </div>
     </main>
 </body>
 </html>
