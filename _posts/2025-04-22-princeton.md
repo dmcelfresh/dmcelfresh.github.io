@@ -8,4 +8,4 @@ comments: true
 category: blog
 ---
 
-I am honorted to announce that I have recently committed to attend Princeton University as an incoming PhD student in their Molecular Biology program. While I have enjoyed my time at Yale, I am ready to see what the future holds.
+I am honored to announce that I have recently committed to attend Princeton University as an incoming PhD student in their Molecular Biology program. While I have enjoyed my time at Yale, I am ready to see what the future holds.
