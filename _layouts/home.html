@@ -1,72 +1,31 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ site.title }}</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            line-height: 1.6;
-        }
-        .social-links {
-            margin-top: 20px;
-            text-align: center;
-        }
-        .social-links a {
-            margin: 0 10px;
-            color: #333;
-            font-size: 24px;
-            text-decoration: none;
-            transition: color 0.3s ease;
-        }
-        .social-links a:hover {
-            color: #007bff;
-        }
-        .home-container {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            gap: 32px;
-        }
-        
-        .home-text {
-            flex: 1;
-        }
-        
-        .home-photo img {
-            max-width: 180px;
-            height: auto;
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-        }
+---
+layout: default
+---
 
-    </style>
-</head>
-<body>
-    <header>
-        <h1>{{ site.title }}</h1>
-        <h3> Synthetic Biologist | Incoming Princeton PhD Student </h4>
-    </header>
+{% assign plang = page.lang | default: site.langs[0] | default: "en" %}
+{% if site.pitch == null %}
+  {% assign div_class = "home" %}
+{% else %}
+  {% assign div_class = "home pitch" %}
+{% endif %}
 
-    <!-- CONTENT -->
-    <main>
-      <div class="home-container">
-          <p>
-              
-          </p>
-        <div class="home-text">
-          <p>Welcome! My name is David McElfresh, and I am a molecular biologist passionate about using synthetic biology to engineer and understand complex biological systems. I am currently completing my BS/MS in Molecular Biophysics & Biochemistry at Yale University, where my research in the Farren Isaacs lab has focused on the development of new genome engineering technologies for non-model microbes.</p>
-        </div>
-        <div class="home-photo">
-          <img src="images/McElfresh_David_Headshot.jpg" alt="David's Headshot" style="max-width:180px; border-radius: 8px;">
-        </div>
-      </div>
-      <p>This fall, I will be joining Princeton University as a PhD student in Molecular Biology. My goal is to develop innovative synthetic biology solutions that advance both fundamental science and real-world applications in the environment. </p>
-    </main>
-</body>
-</html>
+<div class="{{ div_class }}">
+  {% unless site.pitch %}
+  <p>{% include _i18n/i18n.html value=site.description %}</p>
+  {% endunless %}
+
+  {{ content }}
+
+  {% include post-ul.html limit=true %}
+
+  {% include calltoaction.html %}
+
+  {% assign nb_posts = site.posts | size %}
+
+  {% if nb_posts > site.nb_posts_page %}
+  <div class="archive">
+    {{ site.data.academic_i18n.all_posts[plang][0] }}
+    <a href="{% include _i18n/link.html path="archive" %}">{{ site.data.academic_i18n.all_posts[plang][1] }}</a>.</div>
+  {% endif %}
+
+</div>
