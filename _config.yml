@@ -1,9 +1,9 @@
-title: <h4>David A. McElfresh</h4>
-description: Hi! My name is David A. McElfresh, and I am a current BS/MS researcher at Yale University majoring in Molecular Biophysics & Biochemistry. I am conducting my Master's thesis in the Farren Isaacs lab developing novel technologies for the diversification of nonmodel genomes.
+title: David A. McElfresh<br>
+<h4>Synthetic Biologist | Incoming Princeton PhD Student</h4>
+description: I am a synthetic biologist completing my BS/MS in Molecular Biophysics & Biochemistry at Yale University, where I have focused on synthetic biology approaches to engineer the genomes of non-model microbes. My interests include designing and leveraging genome editing tools to address challenges in carbon capture biotechnology. This fall, I will join Princeton University as a graduate student in Molecular Biology to further explore innovative solutions at the intersection of synthetic biology and the environment.
 author:
   name: David A. McElfresh
   email: david.mcelfresh@yale.edu
-shortbio: I am a synthetic biologist completing my BS/MS in Molecular Biophysics & Biochemistry at Yale University, where I have focused on synthetic biology approaches to engineer the genomes of non-model microbes. My interests include designing and leveraging genome editing tools to address challenges in carbon capture biotechnology. This fall, I will join Princeton University as a graduate student in Molecular Biology to further explore innovative solutions at the intersection of synthetic biology and the environment.
 # Build settings
 markdown: kramdown
 remote_theme: gaalcaras/academic
