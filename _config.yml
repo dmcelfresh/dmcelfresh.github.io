@@ -4,6 +4,7 @@ author:
   name: David A. McElfresh
   email: david.mcelfresh@yale.edu
   curriculum:
+    - name: Curriculum Vitae
     - url: https://drive.google.com/file/d/1GY8hNoCp9iV27ZP-7H9Wl_DtQuLBRYzW/view?usp=sharing
 # Build settings
 markdown: kramdown
