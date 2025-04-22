@@ -1,0 +1,62 @@
+/* Set CSS variable if the theme uses it */
+:root {
+  --brand-color: #2E6F40;
+}
+
+/* General links and hover states */
+a,
+a:visited,
+a:hover,
+a:active {
+  color: #2E6F40 !important;
+}
+
+/* Navbar and brand */
+.navbar,
+.navbar-brand,
+.navbar-nav > li > a,
+.navbar-default,
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a {
+  background-color: #2E6F40 !important;
+  color: #fff !important;
+  border-color: #2E6F40 !important;
+}
+
+/* Buttons */
+.btn,
+.btn-primary,
+.btn-default,
+.btn-success,
+.btn-info,
+.btn-warning,
+.btn-danger {
+  background-color: #2E6F40 !important;
+  color: #fff !important;
+  border-color: #2E6F40 !important;
+}
+
+/* Headings and highlights */
+h1, h2, h3, h4, h5, h6,
+.text-primary,
+.text-highlight,
+.highlight,
+.mark, mark {
+  color: #2E6F40 !important;
+}
+
+/* Pagination, badges, and labels */
+.pagination > .active > a,
+.pagination > .active > span,
+.label,
+.badge {
+  background-color: #2E6F40 !important;
+  color: #fff !important;
+  border-color: #2E6F40 !important;
+}
+
+/* Blockquotes and other accents */
+blockquote,
+hr {
+  border-color: #2E6F40 !important;
+}
