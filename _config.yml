@@ -1,8 +1,10 @@
-title: David A. McElfresh<br><h4>Synthetic Biologist | Incoming Princeton PhD Student</h4>
+title: David A. McElfresh
 description: I am a synthetic biologist completing my BS/MS in Molecular Biophysics & Biochemistry at Yale University, where I have focused on synthetic biology approaches to engineer the genomes of non-model microbes. My interests include designing and leveraging genome editing tools to address challenges in carbon capture biotechnology. This fall, I will join Princeton University as a graduate student in Molecular Biology to further explore innovative solutions at the intersection of synthetic biology and the environment.
 author:
   name: David A. McElfresh
   email: david.mcelfresh@yale.edu
+  curriculum:
+    - url: https://drive.google.com/file/d/1GY8hNoCp9iV27ZP-7H9Wl_DtQuLBRYzW/view?usp=sharing
 # Build settings
 markdown: kramdown
 remote_theme: gaalcaras/academic
